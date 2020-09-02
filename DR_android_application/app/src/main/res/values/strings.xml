@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DR_app1</string>
+    <string name="test_you_retinopathy">2Test you retinopathy</string>
+    <string name="test_your_retinopathy">\@Test your retinopathy</string>
+    <string name="test_your_retinopathy1">Test Your Retinopathy</string>
+    <string name="exit">Exit</string>
+</resources>
