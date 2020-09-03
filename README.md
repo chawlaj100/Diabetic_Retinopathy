@@ -1,5 +1,5 @@
 # Diabetic_Retinopathy
-## Diabetic Retinopathy is a diabetic complication that causes its effect in the retina. Diabetic Retinopathy is generally regarded as increase in the blood sugar levels in the retinal area that can cause problems like Visual Impairment including partial blindness and also a blur and unclear vision at its severe stage.
+## Diabetic Retinopathy is a diabetic complication that effects the retina. Diabetic Retinopathy is generally regarded as increase in the blood sugar levels in the retinal area that can cause problems like Visual Impairment including partial blindness and also a blur and unclear vision at its severe stage.
 ### Diabetic Retinopathy is a problem in individuals usually ageing from 20-70. It can be cured completely only if it is recognized early. So early detection systems and automated classifiers are very useful in this disease that help to recognise it efficiently and fast.
 ### Diabetic Retinopathy is classified/recognized based on certain lesions and some other factors as well. There are 4 to 5 common lesions that are possible:
 - Microaneurysms
