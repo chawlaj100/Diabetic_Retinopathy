@@ -24,7 +24,7 @@
         android:id="@+id/btnSelect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:text="Select Image"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/image_upload"/>
@@ -33,9 +33,28 @@
         android:id="@+id/btnCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="Upload Image"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btnSelect"/>
+    
+    <TextView
+        android:id="@+id/upload_heading"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/btnCheck"
+        android:layout_marginTop="45dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/upload_text"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/upload_heading"
+        android:layout_marginTop="3dp"
+        android:lineSpacingExtra="2sp"
+        android:paddingLeft="10dp" />
 
 </RelativeLayout>

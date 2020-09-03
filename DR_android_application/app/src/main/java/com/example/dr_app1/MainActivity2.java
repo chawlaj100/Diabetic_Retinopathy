@@ -12,6 +12,7 @@ import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.ByteArrayInputStream;
@@ -30,6 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
     private Button select, check;
     private int IMG_REQUEST = 10;
     public Bitmap btmp;
+    public TextView head, text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,8 @@ public class MainActivity2 extends AppCompatActivity {
         imgview = (ImageView) findViewById(R.id.image_upload);
         select = (Button) findViewById(R.id.btnSelect);
         check = (Button) findViewById(R.id.btnCheck);
+        head = (TextView) findViewById(R.id.upload_heading);
+        text = (TextView) findViewById(R.id.upload_text);
 
         select.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +60,12 @@ public class MainActivity2 extends AppCompatActivity {
                 uploadImage();
             }
         });
+	head.setText("Instructions");
+        String instructions = "1.) Please ensure that you upload a clear retinal image. \n" +
+                "2.) Entire retina should be visible in the selected image. \n" +
+                "3.) Ensure pupil dilation for 15-20 minutes before clicking the image. \n";
+
+        text.setText(instructions);
     }
 
     public void uploadImage(){
