@@ -37,4 +37,6 @@ dependencies {
     // Tensorflow-Lite dependencies
     implementation 'org.tensorflow:tensorflow-lite-task-vision:0.0.0-nightly'
     implementation 'org.tensorflow:tensorflow-lite-task-text:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
 }
