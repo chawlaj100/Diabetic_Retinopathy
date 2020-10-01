@@ -33,4 +33,8 @@ dependencies {
     // Retrofit dependencies
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+
+    // Tensorflow-Lite dependencies
+    implementation 'org.tensorflow:tensorflow-lite-task-vision:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-task-text:0.0.0-nightly'
 }
