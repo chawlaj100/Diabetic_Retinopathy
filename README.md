@@ -1,12 +1,13 @@
 # Diabetic_Retinopathy
 ## Diabetic Retinopathy is a diabetic complication that effects the retina. Diabetic Retinopathy is generally regarded as increase in the blood sugar levels in the retinal area that can cause problems like Visual Impairment including partial blindness and also a blur and unclear vision at its severe stage.
-### Diabetic Retinopathy is a problem in individuals usually ageing from 20-70. It can be cured completely only if it is recognized early. So early detection systems and automated classifiers are very useful in this disease that help to recognise it efficiently and fast.
+### Diabetic Retinopathy is a problem in individuals usually ageing from 20-70. It can be cured completely only if it is recognized early. So early detection systems are very useful and can help to recognise it efficiently and fast.
 ### Diabetic Retinopathy is classified/recognized based on certain lesions and some other factors including macula thickness. There are 4 to 5 common lesions that are possible:
 - Microaneurysms
 - Haemorrhages
 - Hard Exudates
 - Soft Exudates
 - Drusens
+- Cotton wool spots
 #### ![Lesions](Images/lesions.png)
 #### These lesions are explained in the notebook 'Detecting the problems.ipynb'
 
@@ -18,10 +19,12 @@ Some of the popular open source datasets are:
 - Aptos-2015 and Aptos-2019
 - DRIVE
 - STARE
-- Inspire
+- Inspire-AVR and Inspire-STEREO
 - Drions-DB
-- E-Ophtha
+- E-Ophtha-EX and E-Ophtha-MA
 - HRF
+- HEIMED
+- DRiDB
 
 # Data Cleaning and Pre-Processing
 #### These datasets are made by experts of the disease (Ophthalmologists) using varities of fundus camera systems. The datasets available on kaggle or anywhere would be just raw images directy shot from the fundus camera maybe after pupil dilation. So to make an efficient model we need to crop the images to supress the background noise and also pre-process them using imaging filters before using them for training. I have used 'CLAHE' (Contrast Limited Adaptive Histogram Equalisation) to filter the images before training.
